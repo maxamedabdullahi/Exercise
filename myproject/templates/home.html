@@ -27,3 +27,76 @@
         <div class="mb-3">
           <input id="searchBox" type="search" class="form-control" placeholder="Search (filter by ID, name, or email)">
         </div>
+
+        <!-- TABLE -->
+        <div class="table-responsive">
+          <table id="studentsTable" class="table table-striped align-middle">
+            <thead>
+              <tr>
+                <th style="width:5%;">ID</th>
+                <th style="width:30%;">Name</th>
+                <th style="width:45%;">Email</th>
+                <th style="width:20%;">Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr data-id="1">
+                <td>1</td>
+                <td>Xusen Cabdi</td>
+                <td>xusen.cabdi@example.com</td>
+                <td>
+                  <button class="btn btn-sm btn-primary me-2" id="Edit">Edit</button>
+
+
+                      <!-- DELETE BUTTON with dropdown (hoos u dag) -->
+                  <div class="btn-group">
+                    <button id="del 1" type="button" class="btn btn-sm btn-danger "  aria-expanded="false">
+                                         Delete
+                    </button>
+                
+                  </div>
+                </td>
+              </tr>
+
+              <tr data-id="2">
+                <td>2</td>
+                <td>Maxamed Cabdi</td>
+                <td>max.cabdi@example.com</td>
+                <td>
+                  <button class="btn btn-sm btn-primary me-2" id="Edit 1">Edit</button>
+                  <div class="btn-group">
+                    <button id="del 2" type="button" class="btn btn-sm btn-danger"  aria-expanded="false">
+                      Delete
+                    </button>
+
+                        </div>
+                </td>
+              </tr>
+
+              <tr data-id="3">
+                <td>3</td>
+                <td>Nuur Cabdi</td>
+                <td>nuur.cabdi@example.com</td>
+                <td>
+                  <button class="btn btn-sm btn-primary me-2" id="Edit 1">Edit</button>
+                  <div class="btn-group">
+                    <button id="del 2" type="button" class="btn btn-sm btn-danger"  aria-expanded="false">
+                      Delete
+                    </button>
+
+                        </div>
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+
+        <!-- ADD BUTTON -->
+        <div class="text-center mt-3">
+          <button id="addStudent" class="btn btn-primary">Add Student</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
